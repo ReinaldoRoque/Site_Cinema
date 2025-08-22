@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color: #E9ECEF;">
+
+    <!-- inicio da navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #023e8a;">
+        <img src="imagens/Cinema.jpg" width="30" height="25" alt="LogoDaNavbar">
+        <a class="navbar-brand px-2" href="index.html"> Cinema </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto align-items-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"> Pagina inicial <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Filmes.html"> Filmes </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Serie.html"> Séries </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Noticia.html"> Notícias </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Curiosidades.html"> Curiosidades </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Cadastro.html"> Cadastro </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Login.html"> Login </a>
+                </li>
+                <div class="mx-3" style="background-color: #023e8a; ">
+                    <audio controls>
+                        <source src="Musicas/AvengersEndgameAudioOnly.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- fim da navbar -->
+
+    <!-- inicio do carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="imagens/GodVSKong.jpg" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>FILME: GODZILLA VS KONG</h5>
+                    <p>Data de lançamento: 25 de março de 2021</p>
+                    <a class="btn" style="background-color: #E5383B; color: white;" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imagens/SnyderCut.jpg" alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>FILME: LIGA DA JUSTIÇA SNYDER CUT</h5>
+                    <p>Data de lançamento: 18 de março de 2021</p>
+                    <a class="btn" style="background-color: #E5383B; color: white;" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imagens/Raya.jpg" alt="Terceiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>FILME: RAYA E O ÚLTIMO DRAGÃO</h5>
+                    <p>Data de lançamento: 12 de março de 2021</p>
+                    <a class="btn" style="background-color: #E5383B; color: white;" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imagens/SombraeOssos.jpg" alt="Quarto Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>SÉRIE: SOMBRA E OSSOS </h5>
+                    <p>Data de lançamento: abril de 2021</p>
+                    <a class="btn" style="background-color: #E5383B; color: white;" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imagens/WhatIfCarousel.jpg" alt="Quinto Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>SÉRIE: WHAT IF...?</h5>
+                    <p>Data de lançamento: 2021</p>
+                    <a class="btn" style="background-color: #E5383B; color: white;" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imagens/Loki2.png" alt="Sexto Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>SÉRIE: LOKI</h5>
+                    <p>Data de lançamento: maio de 2021</p>
+                    <a class="btn" style="background-color: #E5383B; color: white;" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <!-- fim do carousel -->
+
+    <h2 class="text-center my-5" style="background-color: #E5383B; color: white;">🎬<i> Filmes em alta </i>🎬</h2>
+
+    <!-- inicio dos cards dos filmes em alta -->
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-group text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/MulherMaravilha3.jpg" height="290" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">⚔️<i> Mulher Maravilha 1984 </i>⚔️</h5>
+                    <p class="card-text">Na década de 1980, a Mulher-Maravilha enfrenta dois novos inimigos: Max Lord e
+                        Mulher-Leopardo.</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-left-0 border-right-0 border-danger">
+                <img class="card-img-top" src="imagens/KingsManOrigem2.jpg" height="290" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">🔫<i> King's Man: A Origem </i>🔫</h5>
+                    <p class="card-text">Um homem precisa correr contra o tempo para impedir que os piores tiranos e
+                        criminosos da história exterminem milhões de pessoas e destruam a humanidade.</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/HistoriadeumCasamento.jpg" height="290"
+                    alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">🌹<i> História de um Casamento </i>🌹</h5>
+                    <p class="card-text">A trama narra as complicações matrimoniais de Charlie, diretor de teatro em
+                        ascensão, e Nicole, atriz promissora que deixou sua carreira em segundo para cuidar do marido e
+                        do seu filho, Henry.
+                    </p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fim dos cards dos filmes em alta-->
+
+    <h2 class="text-center my-5" style="background-color: #E5383B; color: white;">🎬<i> Séries em alta </i>🎬</h2>
+
+    <!-- inicio dos cards das series em alta -->
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-group text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/WandaVision2.jpg" height="290" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">😱<i> WandaVision </i>😱</h5>
+                    <p class="card-text">WandaVision mistura o estilo das sitcoms clássicas com o Universo
+                        Cinematográfico da Marvel.</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border-right-0 border-left-0 border-danger">
+                <img class="card-img-top" src="imagens/PeakyBlinders.jpg" height="290" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">💵<i> Peaky Blinders </i>💵</h5>
+                    <p class="card-text">Os Peaky Blinders são uma organização criminosa de origem cigana que se passa
+                        na cidade de Birmingham, Inglaterra, em 1919.</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/TheMandalorian.jpg" height="290" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">🪐<i> The Mandalorian </i>🪐</h5>
+                    <p class="card-text">Em The Mandalorian, Din Djarin é um guerreiro solitário que
+                        trabalha como caçador de recompensa.
+                    </p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fim dos cards das series em alta -->
+
+    <!-- inicio do jumbotron -->
+
+    <div style="text-align: center;">
+        <div class="jumbotron mx-5" style="background-color: #023e8a;">
+            <h1 class=" display-4" style="color: white;">🤯<i> Curiosidades </i>🤯</h1>
+            <p style="color: white;">Perdeu aquela referência ou easter egg dos seus filmes e séries favoritos?</p>
+            <p style="color: white;">Não se preocupe nós podemos ajudar, clique em mais informações e saiba mais </p>
+            <a class="btn btn-outline-light" href="Curiosidades.html" role="button">Mais
+                informações</a>
+        </div>
+    </div>
+
+    <!-- fim do jumbotron -->
+
+    <h2 class="text-center my-5" style="background-color: #E5383B; color: white;">🌟<i> Notícias sobre
+            os filmes em alta </i>🌟</h2>
+
+    <!-- inicio das noticias dos filmes em alta -->
+
+    <div class="container-fluid mx-auto my-5 text-center" style="width: 80%;">
+        <div class="card-columns">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/Lightyear.jpg" height="320" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-style: italic;">Lightyear</h5>
+                    <p class="card-text">Lightyear contará a origem do patrulheiro espacial de Toy Story, Buzz
+                        Lightyear.</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/OEsquadrãoSuicida.jpg" height="319" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-style: italic;">O Esquadrão Suicida</h5>
+                    <p class="card-text">O Esquadrão Suicida: James Gunn revela que falta pouco para o filme ficar
+                        pronto.</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/Encantada2.jpg" height="319" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-style: italic;">Encantada 2</h5>
+                    <p class="card-text">Encantada 2 é confirmado e terá retorno de Amy Adams no Disney+.</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/PattyJenkins.jpeg" height="320" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-style: italic;">Patty Jenkins</h5>
+                    <p class="card-text">Patty Jenkins, de Mulher-Maravilha, irá dirigir o novo filme de Star Wars.
+                    </p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/ChadwickBoseman.jpg" height="319" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-style: italic;">Pantera Negra 2</h5>
+                    <p class="card-text">Pantera Negra 2 ganha data de lançamento e definição sobre substituição de
+                        Chadwick Boseman.</p>
+                    <a class="btn btn-outline-danger" href="PagPantera.html" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/Homem-Aranha3.jpg" height="320" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-style: italic;">Homem-Aranha 3</h5>
+                    <p class="card-text">Homem-Aranha 3: Tom Holland diz que Tobey Maguire e Andrew Garfield não estão
+                        no filme.</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fim das noticias dos filmes em alta -->
+
+    <h2 class="text-center my-5" style="background-color: #E5383B; color: white;">🌟<i> Notícias sobre as
+            séries em alta </i>🌟</h2>
+
+    <!-- inicio das noticias das séries em alta -->
+
+    <div class="container-fluid mx-auto my-5 text-center" style="width: 80%;">
+        <div class="card-columns">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/HaydenChristensen.jpg" height="320" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-style: italic;">Obi-Wan Kenobi </h5>
+                    <p class="card-text">Hayden Christensen celebra retorno ao universo Star Wars.</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/Moana.jpeg" height="320" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-style: italic;">Moana</h5>
+                    <p class="card-text">Moana vai ganhar série derivada na Disney+.</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/MsMarvel.jpg" height="320" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-style: italic;">Ms.Marvel</h5>
+                    <p class="card-text"> Vídeo dos bastidores revela primeiras cenas da série.</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CoraçãoDeFerroeArmorWars.png" height="295"
+                    alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-style: italic;">Coração de Ferro e Armor Wars</h5>
+                    <p class="card-text">Legado do Homem de Ferro será explorado em novas séries da Disney+.
+                    </p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/KateBishop.jpg" height="295  " alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-style: italic;">Hawkeye</h5>
+                    <p class="card-text">onfira a primeira imagem oficial de Hailee Steinfeld como Kate Bishop</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/WhatIf.jpg" height="320" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-style: italic;">What If...?</h5>
+                    <p class="card-text">Trailer de What If...? explora história alternativa do MCU</p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fim das noticias das series em alta -->
+
+    <h2 class="text-center my-5" style="background-color: #E5383B; color: white;">🔥<i> Trailer em alta </i>🔥</h2>
+
+    <h3 class="text-center my-5" style="text-decoration: underline;"><i>Mortal Kombat</i></h2>
+
+        <!-- inico do trailer em alta -->
+
+        <div class=" text-center my-5">
+            <video controls>
+                <source src="Trailer/MortalKombatTrailer.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- fim do trailer em alta -->
+
+        <!-- inicio do rodape -->
+
+        <div class="footer" style="overflow-x: hidden;">
+            <div>
+                <img src="imagens/RodapéEspaco.png" alt="">
+            </div>
+        </div>
+
+        <!-- fim do rodape -->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>

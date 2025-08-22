@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #E9ECEF;">
+
+    <!-- inicio da navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #023e8a;">
+        <img src="imagens/Cinema.jpg" width="30" height="25" alt="LogoDaNavbar">
+        <a class="navbar-brand px-2" href="index.html"> Cinema </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto align-items-center">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html"> Pagina inicial <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Filmes.html"> Filmes </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Serie.html"> Séries </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Noticia.html"> Notícias </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Curiosidades.html"> Curiosidades </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Cadastro.html"> Cadastro </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Login.html"> Login </a>
+                </li>
+                <div class="mx-3" style="background-color: #023e8a; ">
+                    <audio controls>
+                        <source src="Musicas/AvengersEndgameAudioOnly.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- fim da navbar -->
+
+    <!-- inicio do h1 -->
+
+    <!-- <h1 class="text-center my-4" style="background-color: #E5383B; color: white;"><i> Sejam
+            bem-vindos(a) a área de filmes! </i></h1> -->
+
+    <!-- fim do h1 -->
+
+    <!-- inicio da imagem -->
+
+    <!-- <img src="imagens/CapasDosFilmes/CapitaoSoldado2.jpg">
+
+    fim da imagem -->
+
+    <!-- inicio do h3 -->
+
+    <h2 class=" text-center my-5" style="background-color: #E5383B; color: white;">🎬<i> Filmes </i>🎬</h2>
+
+    <!-- fim do h3 -->
+
+    <!-- inicio dos cards -->
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazEndGame.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Vingadores Ultimato </i></h5>
+                    <p class=" card-text">Após Thanos eliminar metade das criaturas vivas, os
+                        Vingadores têm de lidar com a perda de amigos e entes queridos.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="VingadoresUltimato.html" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazgodzillaVSkong.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Godzilla vs Kong </i></h5>
+                    <p class="card-text">Em Godzilla vs Kong, duas poderosas forças da natureza vão se enfrentar em
+                        uma grande batalha. </p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazSnyderCut.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Liga da Justiça </i></h5>
+                    <p class="card-text">Juntos, Batman e Mulher-Maravilha buscam e recrutam um time de meta-humanos</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazMulherMaravilha2.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Mulher Maravilha 1984 </i></h5>
+                    <p class=" card-text">Na década de 1980, a Mulher-Maravilha enfrenta dois novos inimigos: Max Lord e
+                        Mulher-Leopardo.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazViuvaNegra.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Viúva Negra </i></h5>
+                    <p class="card-text">Após seu nascimento, Natasha Romanoff é dada à KGB, que a
+                        prepara para se tornar sua agente definitiva. </p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazMortalKombat.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class=" card-title"><i> Mortal Kombat </i></h5>
+                    <p class="card-text">Temendo pela segurança de sua família, Cole vai em busca de Sonya Blade e
+                        Jax</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazRaya.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Raya e o Último Dragão </i></h5>
+                    <p class=" card-text">Há muito tempo, humanos e dragões viviam
+                        juntos em harmonia. Mas quando uma força maligna ameaçou a terra, os dragões se sacrificaram
+                        para salvar a humanidade.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazKingssManAOrigem.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> King's Man: A Origem </i></h5>
+                    <p class="card-text">Um homem precisa correr contra o tempo para impedir que os piores tiranos e
+                        criminosos da história exterminem milhões de pessoas e destruam a humanidade. </p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazHistoriaDeUmCasamento.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> História de um Casamento </i></h5>
+                    <p class="card-text">A trama narra as complicações matrimoniais de Charlie, diretor de teatro em
+                        ascensão, e Nicole, atriz promissora que deixou sua carreira em segundo para cuidar do marido e
+                        do seu filho, Henry.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazUncharted.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Uncharted </i></h5>
+                    <p class=" card-text">Em Uncharted, o caçador de tesouros Nathan Drake, inicia uma jornada em busca
+                        de um tesouro na lendária cidade sul americana de El Dorado.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/Cartaz007.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> 007 - Sem Tempo para Morrer </i></h5>
+                    <p class="card-text">Bond deixou o serviço ativo e está desfrutando de uma vida tranquila na
+                        Jamaica. Sua paz não dura muito quando seu velho amigo Felix Leiter aparece pedindo ajuda. </p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazOsEternos.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Os Eternos </i></h5>
+                    <p class="card-text">Os Eternos são uma espécia extraterrestre e imortal que vêm de um planeta
+                        muito, muito distante e que chegaram na Terra milhares de anos atrás. Esses super-heróis têm
+                        protegido a humanidade desde o início dos tempos.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazCherry.png" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Cherry </i></h5>
+                    <p class=" card-text">Um ex-médico do exército sofre de transtorno pós-traumático após retornar do
+                        Iraque.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazTopGun.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Top Gun 2 </i></h5>
+                    <p class="card-text">Depois de mais de 30 anos de serviço como um dos principais aviadores da
+                        Marinha, Pete
+                        "Maverick" Mitchell está de volta, rompendo os limites como um piloto de testes corajoso.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazArmyoftheDead.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Army of the Dead: Invasão em Las Vegas </i></h5>
+                    <p class="card-text">Depois de um surto zumbi em Las Vegas, um grupo de mercenários faz a aposta
+                        máxima: arriscar-se na zona de quarentena para o maior roubo já tentado por alguém.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazMulan.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Mulan </i></h5>
+                    <p class=" card-text">Uma jovem destemida arrisca a própria vida por amor à família e à pátria para
+                        se tornar uma das maiores guerreiras de toda a China</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazRocketman.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Rocketman </i></h5>
+                    <p class="card-text">Extremamente talentoso mas muito tímido, o pianista prodígio Reginald Dwight
+                        muda seu nome para Elton John e torna-se uma estrela da música de renome internacional durante
+                        os anos 1970.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazBohemian.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Bohemian Rhapsody </i></h5>
+                    <p class="card-text">Freddie Mercury, Brian May, Roger Taylor e John Deacon formam a banda de rock
+                        Queen em 1970.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazDolittle.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Dolittle </i></h5>
+                    <p class=" card-text">O Dr. Dolittle vive com uma variedade de animais exóticos e conversa com eles
+                        diariamente.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazScooby.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> SCOOBY! O Filme </i></h5>
+                    <p class="card-text">Scooby e sua turma encaram o seu maior e mais difícil mistério de todos os
+                        tempos: um plano maligno para liberar o cão fantasma, Cérbero, no mundo.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazSonic.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Sonic: O Filme </i></h5>
+                    <p class="card-text">Sonic, o porco-espinho azul mais famoso do mundo, se junta com os seus amigos
+                        para derrotar o terrível Doutor Eggman.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/Cartaz1917.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> 1917 </i></h5>
+                    <p class=" card-text">Na Primeira Guerra Mundial, dois soldados britânicos recebem ordens
+                        aparentemente impossíveis de cumprir.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazAdAstra.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Ad Astra - Rumo às Estrelas </i></h5>
+                    <p class="card-text">Um homem viaja pelo interior de um sistema solar sem lei para encontrar seu pai
+                        desaparecido</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazJumanji.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Jumanji - Próxima Fase </i></h5>
+                    <p class="card-text">Spencer volta ao mundo fantástico de Jumanji. Os amigos Martha, Fridge e
+                        Bethany entram no jogo e tentam trazê-lo para casa.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazDiaboDeCadaDia.jpeg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> O Diabo de Cada Dia </i></h5>
+                    <p class=" card-text">Willard Russell volta traumatizado para a cidade depois da
+                        Segunda Guerra Mundial.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazTheWayBack.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> The Way Back </i></h5>
+                    <p class="card-text">Um ex-atleta considerado um fenômeno do basquete em seus anos de colegial luta
+                        contra o alcoolismo ao mesmo tempo em que encara as dificuldades de um emprego monótono.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazBliss.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Bliss </i></h5>
+                    <p class="card-text">Em Bliss, em Busca da Felicidade, Greg é um homem divorciado que
+                        vê sua vida toda mudar quando conhece Isabel.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazBobEsponja.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Bob Esponja: O Incrível Resgate </i></h5>
+                    <p class=" card-text">Onde está Gary? Segundo Bob Esponja, Gary foi caracolstrado pelo temível Rei
+                        Poseidon e levado para a cidade perdida de Atlantic City.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazOlhosDeGato.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Olhos de gato </i></h5>
+                    <p class="card-text">Olhos de Gato, conta a história de Miyo Sasaki, uma menina que sonha em
+                        conquistar Kento Hinode, seu grande amor.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazSoul.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Soul </i></h5>
+                    <p class="card-text">Joe é um professor de música do ensino médio apaixonado por jazz, cuja vida não
+                        foi como ele esperava.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazACaminhaDaLua.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> A Caminho da Lua </i></h5>
+                    <p class=" card-text">Estimulada pelas histórias da mãe, Fei Fei decide construir uma nave espacial
+                        para ir até à Lua e comprovar a existência de uma lendária deusa.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazDancarinaImperfeita.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Dançarina Imperfeita </i></h5>
+                    <p class="card-text">Dançarina Imperfeita acompanha Quinn Ackerman que tem sua
+                        admissão na faculdade de seus sonhos dependendo de sua performance em uma competição de dança.
+                    </p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazClouds.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Clouds </i></h5>
+                    <p class="card-text">Clouds é baseado no livro "Fly a Little Higher", de Laura Sobiech. É a história
+                        de Zach Sobiech, um adolescente diagnosticado com uma forma rara de câncer no osso,
+                        buscando uma maneira de inspirar outras pessoas enquanto luta com o pouco tempo de vida que lhe
+                        resta.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazEnquantoEstivermosJuntos.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Enquanto Estivermos Juntos </i></h5>
+                    <p class=" card-text">Conheça a história da mega-estrela da música cristã, Jeremy Camp, e sua
+                        jornada inspiradora de esperança e fé em meio ao amor e perda.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartzAQuimicaQueHaEntreNos.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> A Química que Há Entre Nós </i></h5>
+                    <p class="card-text">Baseado no livro homônimo de 2017, o filme conta a história de Henry Page, um
+                        jovem que está levando sua vida normalmente até a chegada de Grace Town.
+                    </p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazPorLugaresIncriveis.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Por Lugares Incríveis </i></h5>
+                    <p class="card-text">A adolescente Violet Markey (Fanning), traumatizada pela morte da irmã num
+                        acidente de carro, enfrenta a depressão, isola-se dos amigos, não dá conversa para os colegas e
+                        se enfurna no quarto cheio de livros.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-auto my-5" style="width: 70%;">
+        <div class="card-deck text-center">
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazALendaDeCandyman.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> A Lenda de Candyman </i></h5>
+                    <p class=" card-text">Desde que os moradores se lembram, os projetos habitacionais do bairro Cabrini
+                        Green, em Chicago, eram aterrorizados por uma história de fantasma famosa sobre um assassino
+                        sobrenatural com um gancho na mão.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazWrongTurn.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Wrong Turn </i></h5>
+                    <p class="card-text">Um grupo de amigos de Nova Iorque fazem uma viagem de caminhada para as belas
+                        montanhas da Virgínia Ocidental, mas inadvertidamente caem presa de uma seita selvagem conhecida
+                        como a Fundação.
+                    </p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+            <div class="card border border-danger">
+                <img class="card-img-top" src="imagens/CapasDosFilmes/CartazEspiral.jpg" height="515" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"><i> Spiral </i></h5>
+                    <p class="card-text">Em Spiral, seis amigos se preparam para festejar uma despedida de solteiro em
+                        uma pequena cidade no interior de Iowa. Após uma intensa noite, eles acordam e se dão conta que
+                        um dos participantes está desaparecido.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <a class="btn btn-outline-danger" href="#" role="button">Mais
+                        informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- inicio do rodape -->
+
+    <div class="footer" style="overflow-x: hidden;">
+        <div>
+            <img src="imagens/RodapéEspaco.png" alt="">
+        </div>
+    </div>
+
+    <!-- fim do rodape -->
+
+    <!-- fim dos cards-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
